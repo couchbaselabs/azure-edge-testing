@@ -1,0 +1,65 @@
+{
+    "syncGatewayNodeCount": {
+      "value": 2
+    },
+    "syncGatewayVersion": {
+      "value": "2.8.2"
+    },
+    "couchbaseServerUrl": {
+      "value": "couchbase://137.135.94.141"
+    },
+    "couchbaseUser": {
+      "value": "sg_admin"
+    },
+    "couchbasePassword": {
+      "value": "Foo123!"
+    },
+    "couchbaseDatabaseName": {
+      "value": "travel-sample"
+    },
+    "couchbaseBucket": {
+      "value": "travel-sample"
+    },
+    "vmSize": {
+      "value": "Standard_DS3_v2"
+    },
+    "adminUsername": {
+      "value": "couchbase"
+    },
+    "adminPassword": {
+      "value": "Foo123!"
+    },
+    "location": {
+      "value": "eastus"
+    },
+    "vnet": {
+      "value": {
+        "name": "cb-edge-region-vnet",
+        "resourceGroup": "edge-test-ja",
+        "addressPrefixes": [
+          "10.32.0.0/16"
+        ],
+        "addressPrefix": "10.32.0.0/16",
+        "newOrExisting": "existing",
+        "subnets": {
+          "subnet1": {
+            "name": "cb-edge-region-subnet",
+            "addressPrefix": "10.32.0.0/24",
+            "startAddress": "10.32.0.4"
+          }
+        }
+      }
+    },
+    "publisher": {
+      "value": "couchbase"
+    },
+    "sync_gateway_offer": {
+      "value": "couchbase-sync-gateway-enterprise"
+    },
+    "sync_gateway_image_version": {
+      "value": "18.4.0"
+    },    
+    "sync_gateway_sku": {
+      "value": "hourly_pricing_mar19"
+    }
+  }
